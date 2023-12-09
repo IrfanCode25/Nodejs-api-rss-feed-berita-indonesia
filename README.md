@@ -20,6 +20,12 @@ channel berita yg tersedia (updated)
 1. Antara news
 2. Republika
 
+for testing
+
+```bash
+https://nodejs-rss-feed-berita-indonesia-jac5km5kd-irfancode25.vercel.app/republika
+```
+
 api endpoint
 
 ```bash
