@@ -15,11 +15,6 @@ npm install
 node src/server.js
 ```
 
-channel berita yg tersedia (updated)
-
-1. Antara news
-2. Republika
-
 for testing
 
 ```bash
@@ -27,11 +22,62 @@ https://nodejs-rss-feed-berita-indonesia-jac5km5kd-irfancode25.vercel.app/republ
 ```
 
 api endpoint
+antaranews.com
 
 ```bash
 /antara-news
 ```
 
+republika.co.id
+
 ```bash
 /republika
+```
+
+coconuts.co -> jakarta news
+
+```bash
+/coconuts
+```
+
+vice.com -> id
+
+```bash
+/vice-id
+```
+
+suara.com
+
+```bash
+/suara
+```
+
+tempo.co
+
+```bash
+/tempo
+```
+
+cnnindonesia.com
+
+```bash
+/cnn-indonesia
+```
+
+cnbcindonesia.com
+
+```bash
+/cnbc-indonesia
+```
+
+mediaindonesia.com
+
+```bash
+/mediaindonesia
+```
+
+kumparan.com
+
+```bash
+/kumparan
 ```
