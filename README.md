@@ -19,3 +19,13 @@ channel berita yg tersedia (updated)
 
 1. Antara news
 2. Republika
+
+api endpoint
+
+```bash
+/antara-news
+```
+
+```bash
+/republika
+```
