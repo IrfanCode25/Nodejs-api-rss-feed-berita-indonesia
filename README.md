@@ -18,7 +18,7 @@ node src/server.js
 for testing
 
 ```bash
-https://nodejs-rss-feed-berita-indonesia-jac5km5kd-irfancode25.vercel.app/republika
+https://nodejs-rss-feed-berita-indonesia-api.vercel.app/kumparan
 ```
 
 api endpoint
