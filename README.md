@@ -12,7 +12,7 @@ Clone repositori ini ke komputer lokal Anda:
 git clone https://github.com/IrfanCode25/Nodejs-rss-feed-berita-indonesia-api.git
 cd Nodejs-rss-feed-berita-indonesia-api
 npm install
-node src/server.js
+npm start
 ```
 
 for testing
