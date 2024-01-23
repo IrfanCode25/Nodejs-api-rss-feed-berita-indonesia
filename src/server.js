@@ -2,7 +2,7 @@
 const express = require('express');
 const cors = require('cors');
 const routes = require('./routes');
-const { onlyPath } = require('./utils/endpoint');
+const { onlyPath, channels } = require('./utils/endpoint');
 const app = express();
 const port = 3000;
 
@@ -11,7 +11,9 @@ app.use(cors());
 app.get('/', (req, res) => {
   return res.send({
     develop: '@irfancode25',
+    description: 'Free api rss feed berita indonesia terbaru',
     github: 'https://github.com/IrfanCode25/Nodejs-rss-feed-berita-indonesia-api',
+    channels: channels,
     endpoints: onlyPath,
   });
 });

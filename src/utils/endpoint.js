@@ -45,7 +45,12 @@ const onlyPath = endpoint.map((item) => {
    return 'https://nodejs-rss-feed-berita-indonesia-api.vercel.app/api'+ item.path
 })
 
+const channels = endpoint.map((item) => {
+   return item.path.replace('/', '')
+})
+
 module.exports = {
    endpoint,
-   onlyPath
+   onlyPath,
+   channels,
 }
